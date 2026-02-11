@@ -274,4 +274,19 @@ footer {
 .preview-card a:hover {
     text-shadow: 0 0 10px #ff7b00;
 }
+.card-seccion img {
+    width: 100%;
+    max-width: 400px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 15px;
+    box-shadow: 0 0 25px rgba(255,123,0,0.5);
+    transition: 0.4s;
+}
+
+.card-seccion img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 40px #ff7b00;
+}
+
 
